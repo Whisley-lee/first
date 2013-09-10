@@ -63,6 +63,10 @@ public class MainFrame extends JFrame {
         demoPanel.add(button1);
         button1.setLocation(500,300);
 
+
+
+
+
         viewPanel = new JPanel();
         split = new JSplitPane(JSplitPane.VERTICAL_SPLIT, tab, viewPanel);
         split.setDividerSize(6);
